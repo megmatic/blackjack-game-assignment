@@ -1,3 +1,27 @@
+## Functionality Implemented:
+- Game board design
+- Game play logic
+- Message box and button display and logic
+- Keeping track of wins
+- 'Play Again' and 'Cash Out' capabilities (using a fresh deck each game)
+
+## Functionality To Implement:
+- Card animations
+- Hiding the dealer's second card and score until dealer's turn
+- Betting logic and implementation
+- Add functionality for the use case of getting two ace's on the deal
+- Add functionality to be able to score the ace as 1 point when adventageous to do so
+
+<br />
+
+---
+
+<br />
+
+original readme:
+
+<br>
+
 # Blackjack
 
 In this project, you will create a Blackjack game. If you are unfamiliar with the rules of blackjack, please watch [this video](https://www.youtube.com/watch?v=eyoh-Ku9TCI). Note that these instructions do not implement betting; only wins/losses.

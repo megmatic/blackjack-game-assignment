@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fafafa;
+}
+
+body, html {
+    display: grid;
+    margin: auto;
+}
+
+body {
+    background-color: black;
+    background-image: radial-gradient(rgba(5, 112, 5, 0.75), black 120%);
+    /* height: 100vh; */
+    font-family: 'Libre Baskerville', serif;
+}
+
+.table {
+    width: 70vw;
+    max-width: 1140px;
+    /* background-color: red; */
+}
+
+.message-box {
+    /* background-color: purple; */
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 3rem;
+    min-height: 4rem;
+    /* max-height: 5rem; */
+}
+
+.player {
+    font-size: 1.7em;
+    margin-top: 2rem;
+    /* background-color: orange; */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    background-color: #700521;
+    border: none;
+    flex-basis: 100%;
+    font-family: inherit;
+    cursor: pointer;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 2px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+}
+
+.hand {
+    display: flex;
+    border: 1px solid #aead99;
+    border-radius: 5px;
+    height: 10rem;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content:flex-start;
+}
+
+.hand img {
+    max-width: 7rem;
+    margin: 0.5rem;
+}
+
+.player-name {
+    display: flex;
+}
+
+.wins {
+    margin-left: auto;
+}
+
+#deal-btn-only {
+    display: none;
+}
+
+#hit-stand-btns {
+    display: none;
+}
+
+#rematch-btns {
+    display: none;
+} 
