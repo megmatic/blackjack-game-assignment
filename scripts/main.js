@@ -222,7 +222,7 @@ function cashOut() {
   document.getElementById("dealer-points").innerHTML = `\u00A0`;
   document.querySelectorAll("img")
       .forEach(img => img.remove());
-  document.getElementById("messages").innerHTML = `You won ${playerWins} ouT of ${playerWins + dealerWins} games.<br>You are cashing out with $0.`;
+  document.getElementById("messages").innerHTML = `You won ${playerWins} out of ${playerWins + dealerWins} games.<br>You are cashing out with $0.`;
 }
 
 // FUNCTIONALITY FOR DISABLING BUTTONS IF NEEDED LATER:

@@ -4,6 +4,7 @@
 - Message box and button display and logic
 - Keeping track of wins
 - 'Play Again' and 'Cash Out' capabilities (using a fresh deck each game)
+- Refactor JS to use classes
 
 ## Functionality To Implement:
 - Card animations
